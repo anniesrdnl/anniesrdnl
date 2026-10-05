@@ -122,15 +122,6 @@ I'm Annie, a junior-year student who **designs and builds** for the web. I like 
 
 <br>
 
-### activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=anniesrdnl&bg_color=0F0E13&color=A29DAD&line=A99BFF&point=F7B796&area=true&area_color=A99BFF&hide_border=true&radius=16&custom_title=contributions">
-  <img alt="Annie's GitHub contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=anniesrdnl&bg_color=FBF8F4&color=6B6675&line=8B7CF6&point=F4A582&area=true&area_color=8B7CF6&hide_border=true&radius=16&custom_title=contributions" width="100%">
-</picture>
-
-<br><br>
-
 <!-- ───────────── footer ───────────── -->
 <a href="mailto:anniesardiniola@gmail.com">
   <picture>
