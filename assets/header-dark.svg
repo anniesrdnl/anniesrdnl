@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Annie Sardiniola — designer and aspiring full-stack developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F0E13"/><stop offset="1" stop-color="#17141F"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A99BFF" stop-opacity="0.35"/><stop offset="1" stop-color="#A99BFF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect x="1" y="1" width="1198" height="318" rx="24"/></clipPath>
+    <style>
+      .f { animation: float 6s ease-in-out infinite; }
+      .f2 { animation: float 7s ease-in-out infinite reverse; }
+      .spin { transform-origin: 940px 160px; animation: spin 60s linear infinite; }
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-6px) } }
+      @keyframes spin { to { transform: rotate(360deg) } }
+      @media (prefers-reduced-motion: reduce) { .f, .f2, .spin { animation: none } }
+    </style>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <circle cx="940" cy="160" r="230" fill="url(#glow)"/>
+    <!-- orbit rings -->
+    <g fill="none" stroke="#2A2533" stroke-width="1.5">
+      <circle cx="940" cy="160" r="72"/>
+      <circle cx="940" cy="160" r="118"/>
+      <circle cx="940" cy="160" r="166" stroke-dasharray="2 8"/>
+    </g>
+    <g class="spin">
+      <circle cx="1058" cy="160" r="7" fill="#A99BFF"/>
+      <circle cx="940" cy="42" r="5" fill="#8FD4C0" transform="translate(0 0)"/>
+      <circle cx="822" cy="160" r="4" fill="#F7B796"/>
+    </g>
+    <circle cx="940" cy="160" r="28" fill="#F3F0F7"/>
+    <text x="940" y="169" text-anchor="middle" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-style="italic" font-size="26" fill="#0F0E13">a</text>
+    <!-- confetti -->
+    <g class="f">
+      <rect x="1100" y="56" width="12" height="5" rx="2.5" fill="#F7B796" transform="rotate(28 1106 58)"/>
+      <rect x="770" y="262" width="12" height="5" rx="2.5" fill="#8FD4C0" transform="rotate(-24 776 264)"/>
+      <circle cx="1120" cy="250" r="4" fill="#A99BFF"/>
+    </g>
+    <g class="f2">
+      <rect x="800" y="58" width="10" height="4" rx="2" fill="#A99BFF" transform="rotate(-35 805 60)"/>
+      <circle cx="1080" cy="290" r="3" fill="#F7B796"/>
+      <circle cx="760" cy="120" r="3" fill="#8FD4C0"/>
+    </g>
+    <!-- text -->
+    <text x="80" y="104" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="17" letter-spacing="1" fill="#A29DAD">hello! i&#8217;m</text>
+    <text x="76" y="182" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="76" fill="#F3F0F7" letter-spacing="-1">Annie Sardiniola<tspan fill="#A99BFF">.</tspan></text>
+    <rect x="80" y="210" width="44" height="3" rx="1.5" fill="#F7B796"/>
+    <text x="80" y="252" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#A29DAD">I design and build as an aspiring full-stack developer.</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="24" fill="none" stroke="#2A2533" stroke-width="1.5"/>
+</svg>
