@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="Ready to build something real?">
+  <g fill="none" stroke="#2A2533" stroke-width="1.5"><line x1="80" y1="60" x2="360" y2="60"/><line x1="840" y1="60" x2="1120" y2="60"/></g>
+  <circle cx="360" cy="60" r="4" fill="#A99BFF"/><circle cx="840" cy="60" r="4" fill="#F7B796"/>
+  <text x="600" y="58" text-anchor="middle" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-style="italic" font-size="30" fill="#F3F0F7">Ready to build something real?</text>
+  <text x="600" y="90" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="14" letter-spacing="1" fill="#A29DAD">thanks for stopping by ✦</text>
+</svg>
