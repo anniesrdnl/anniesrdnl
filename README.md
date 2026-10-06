@@ -110,16 +110,6 @@ I'm Annie, a junior-year student who **designs and builds** for the web. I like 
 
 </div>
 
-## 📓 From the Journal
-
-Notes on college, growth, and figuring things out.
-
-| | Entry | Date |
-|:-:|---|---|
-| `01` | [**Still Figuring Things Out**](https://anniesrdnl-portfolio.vercel.app/#journal) | July 2026 |
-| `02` | [**One Deadline at a Time**](https://anniesrdnl-portfolio.vercel.app/#journal) | May 2026 |
-| `03` | [**More Than Just Grades**](https://anniesrdnl-portfolio.vercel.app/#journal) | February 2026 |
-
 ## 🤝 Let's Build Something
 
 <div align="center">
